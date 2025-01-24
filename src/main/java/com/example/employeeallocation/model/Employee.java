@@ -14,7 +14,7 @@ import java.util.List;
 public class Employee {
     @Id
     private String employeeID;
-    private String Salary;
+    private int age;
     private String employeeName;
     private CapabilityCentre capabilityCentre;
     private LocalDate dateOfJoining;
